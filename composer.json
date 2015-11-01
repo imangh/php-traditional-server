@@ -2,5 +2,8 @@
     "name": "fineuploader/php-traditional-server",
     "description": "Endpoint handler for Fine Uploader's traditional server requests.",
     "homepage": "http://fineuploader.com",
-    "license": "MIT"
+    "license": "MIT",
+    "autoload": {
+        "files": ["handler.php"]
+    }
 }
